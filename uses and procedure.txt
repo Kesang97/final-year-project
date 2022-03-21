@@ -1,0 +1,132 @@
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HERB"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/title"/>
+
+            <ImageView
+                android:id="@+id/tulsi_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/tulsi"
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="110dp"/>
+
+            <TextView
+                android:id="@+id/tulsi_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tulsi"
+                android:textColor="@color/title"
+                android:textStyle="italic"
+                android:textSize="25dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Common Name: TULSI(HOLY BASIL)"
+                android:textSize="18dp"
+                android:textColor="@color/frgmnt_text_color"
+                android:layout_margin="15dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Botanical Name: OCIMUM SANCTUM"
+                android:textSize="18dp"
+                android:textColor="@color/frgmnt_text_color"
+                android:layout_margin="15dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Uses"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="@color/title"
+                android:layout_marginVertical="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:text="The tulsi medicinal uses begins with the ability of the leaves to cure many kinds of fever.Instead of taking paracetamol to bring your temperature down or gulping down a spoonful of cough syrup to treat a cough and cold at home use tulsi leaves this time."/>
+
+            <TextView
+                android:id="@+id/text_proc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="Procedure"
+                android:textColor="@color/title"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/tulsi_tea"
+                android:layout_width="180dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tulsitea"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tulsi Tea:"
+                android:textSize="20dp"
+                android:textColor="@color/title"
+                android:textStyle="italic"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:text="Add a handful of tender tulsi leaves in a cup of boiling water along with tea leaves and allow it to boil for 5-10 minutes.Strain and drink the tea twice a day to treat fever and prevent malaria and dengue fever."
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tulsijuice"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tulsi Juice:"
+                android:textSize="20dp"
+                android:textColor="@color/title"
+                android:textStyle="italic"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="You can even drink tulsi leaves juice to lower your body temperature.Moreover, it is effective even for children.To 10-15 tulsi leaves,add a little water and extract its juice.Take it every 2-3 hours with sips of cold water to deal with a fever."
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+    </ScrollView>
